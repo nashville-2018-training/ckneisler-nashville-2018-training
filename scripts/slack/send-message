@@ -16,7 +16,7 @@ TERMINUS_SITE_UUID=$(terminus site:info ${TERMINUS_SITE} --field=id)
 SLACK_USERNAME=&quot;CircleCI Bot&quot;
  
 # Define the Slack icon URL
-SLACK_ICON_URL=&quot;;
+SLACK_ICON_URL=&quote;
  
 # Use the multidev environment unless on master, then use dev
 if [[ $CIRCLE_BRANCH != &quot;master&quot; ]]
